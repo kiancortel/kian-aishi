@@ -1,0 +1,242 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+.carousel-inner{
+	height: 500px;
+}
+body
+{
+	font-family: sans-serif;
+}
+#nav-bar
+{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar
+{
+	background-image: linear-gradient(to right, #008000,#006400);
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+	height: 40px;
+	padding-left: 20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+
+}
+.navbar-nav li a
+{
+	color: black; !important;
+	font-weight: 600;
+	float: left;
+	text-align: left;
+}
+.btn
+{
+	color: #fff !important;
+	font-weight: 600;
+}
+.fa-bars
+{
+	color: #fff;
+	font-size: 30px !important;
+}
+.navbar-togger
+{
+	outline: none !important;
+}
+.navbar-nav > li > .dropdown-menu
+{
+	background-color: #008000;
+}
+#services
+{
+	padding: 80px 0;
+}
+.service-img
+{
+	width: 300px;
+	margin-top: 20px;
+}
+.services
+{
+	padding: 20px;
+}
+.services h4
+{
+	padding: 5px;
+	margin-top: 25px;
+}
+#services .btn-primary
+{
+	box-shadow: none;
+	padding: 8px 25px;
+	border: none;
+	border-radius: 20px;
+	background-image: linear-gradient(to right, #008000,#006400);
+}
+.img-img
+{
+	width: 270px;
+	margin-top: 10px;
+}
+#social-media
+{
+	background: gray;
+	padding: 100px 0;
+}
+#social-media p
+{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  align-items: center;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  align-items: center;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  align-items: center;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  align-items: center;
+}
+.footer-content{
+	background-image: linear-gradient(to right, #008000,#006400);
+}
+.footer-content p{
+	text-align: center;
+	margin: 5px 2px;
+}
+.footer-content h3{
+	text-align: center;
+	margin: 5px 2px;
+}
+.footer-bottom{
+	text-align: center;
+}
+#services h1
+{
+	text-align: center;
+	padding-bottom: 30px;
+}
+ #footer .card-body
+{
+	background-image: linear-gradient(to right, #e44b8d,#d24787);
+}
+#footer h5
+{
+	color: white;
+}
+#footer pre
+{
+	color: white;
+}
+.Home{
+	height: 400px;
+	padding: 70px;
+}
+.title-1{
+	font-size: 56px;
+	color: #fff;
+	font-weight: 600;
+}
+.Home p{
+	color: lemonchiffon;
+	font-size: 20px;
+	padding-top: 10px;
+}
+.Home button{
+	height: 40px;
+	color: red;
+	background: crimson;
+	font-size: 22px;
+	padding: 5px 30px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	transition: .4s ease;
+	cursor: pointer;
+}
+.home button:hover{
+	background: none;
+	border: 2px solid crimson;
+}
+.heading{
+	text-align: center;
+	text-transform: uppercase;
+}
+.heading{
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--second-color);
+}
+.heading h1 {
+	font-size: 1rm;
+	color: black;
+}
+.shop-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 3rem;
+	margin-top: 5rem;
+}
+.box{
+	flex: 1 1 1rem;
+	background: pink;
+	padding: 20px;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 3rem;
+	border-radius: 0.5rem;
+}
+.shop-container .box .box-img{
+	width: 150px;
+	height: 150px;
+	margin-top: -100px;
+}
+.shop-container .box .box-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+}
+.btn {
+    color: red; !important;
+    font-weight: 600;
+}
